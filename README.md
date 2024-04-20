@@ -1,8 +1,8 @@
 # Skin Disease Classifier
-## Dataset
+### Dataset
 
-## CNN Model
+### CNN Model
 
-## Transfer Learning
+### Transfer Learning
 
-## References
+### References
