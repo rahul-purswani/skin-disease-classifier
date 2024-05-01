@@ -9,10 +9,10 @@ The input for our models is the images of the lesions and the output is lesion_t
 
 The training set originally contains of 7511 records and the testing set contains of 2504 records. However, there is a heavy class imbalance in lesions as shown in the figure below -
 
-![Screenshot 2024-05-01 at 12 47 51 PM](https://github.com/rahul-purswani/skin-disease-classifier/assets/70603471/4cd9cead-7478-44d2-b2d6-f8cef6ec3ecc)
+![Screenshot 2024-05-01 at 12 47 51 PM](https://github.com/rahul-purswani/skin-disease-classifier/assets/70603471/4cd9cead-7478-44d2-b2d6-f8cef6ec3ecc) ![Screenshot 2024-05-01 at 1 17 56 PM](https://github.com/rahul-purswani/skin-disease-classifier/assets/70603471/ab09c6eb-7cc0-467b-bd57-a6bd430c35f5)
 
-After augmentation, the The training set contains of 26149 records and the testing set contains of 2504 records as shown below - 
-![Screenshot 2024-05-01 at 1 17 56 PM](https://github.com/rahul-purswani/skin-disease-classifier/assets/70603471/ab09c6eb-7cc0-467b-bd57-a6bd430c35f5)
+To addess this problem, we do random some random.After augmentation, the The training set contains of 26149 records and the testing set contains of 2504 records as shown above. 
+
 
 
 ### Training Models
