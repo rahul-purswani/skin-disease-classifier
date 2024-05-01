@@ -13,9 +13,7 @@ The training set originally contains of 7511 records and the testing set contain
 
  After augmentation, the The training set contains of 26149 records and the testing set contains of 2504 records.
 
-### CNN Model
-
-### Transfer Learning
+### Training Models
 
 | Model Architecture | Training Accuracy | Testing Accuracy | Training Loss |
 |----------|----------|----------|----------|
