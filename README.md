@@ -19,11 +19,11 @@ The training set originally contains of 7511 records and the testing set contain
 
 | Model Architecture | Training Accuracy | Testing Accuracy | Training Loss |
 |----------|----------|----------|----------|
-| Custom_CNN | Row3Col2 | Row3Col3 | Row3Col4 |
-| ResNet18 | Row1Col2 | Row1Col3 | Row1Col4 |
-| ResNet50 | Row2Col2 | Row2Col3 | Row2Col4 |
-| Efficientnet_b1 | Row3Col2 | Row3Col3 | Row3Col4 |
-| Mobilenet_v3_small | Row3Col2 | Row3Col3 | Row3Col4 |
-| ViT_base_patch16_244 | Row3Col2 | Row3Col3 | Row3Col4 |
+| Custom_CNN | 72.67% | 63.58% | 0.726 |
+| ResNet18 | 94.91% | 80.83% | 0.140 |
+| ResNet50 | 93.73% | 80% | 0.175 |
+| Efficientnet_b1 | 98.54% | 89.70% | 0.042 |
+| Mobilenet_v3_small | 97.91% | 81.35% | 0.061 |
+| ViT_base_patch16_244 | 83.16% | 63.78% | 0.432 |
 
 ### References
