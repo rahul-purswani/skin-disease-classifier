@@ -21,4 +21,4 @@ The training set originally contains 7511 records and the testing set contains 2
 | ViT_base_patch16_244 | 83.16% | 63.78% | 0.432 |
 
 ### References
-Tschandl, P., Rosendahl, C., Akay, B. N. (2019). "The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions." Scientific Data, 6, Article number: 194.
+- Tschandl, P., Rosendahl, C., Akay, B. N. (2019). "The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions." Scientific Data, 6, Article number: 194.
