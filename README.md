@@ -7,13 +7,7 @@ In this project, we use the HAMS 10000 dataset (sourced directly from Harvard we
 
 The input for our models is the images of the lesions and the output is lesion_type. In pre-processing, there are some missing values in the metadata, and we just delete those records because we have plenty of data. We also resize all the images (as per the model requirements), and perform random transformations (like vertical/horizontal flip, rotation, etc). Lastly, all the lesion_types are encoded from strings to vectors (using one-hot encoding).
 
-The training set originally contains of 7511 records and the testing set contains of 2504 records. However, there is a heavy class imbalance in lesions as shown in the figure below -
-
-![Screenshot 2024-05-01 at 12 47 51 PM](https://github.com/rahul-purswani/skin-disease-classifier/assets/70603471/4cd9cead-7478-44d2-b2d6-f8cef6ec3ecc)<span />![Screenshot 2024-05-01 at 1 17 56 PM](https://github.com/rahul-purswani/skin-disease-classifier/assets/70603471/ab09c6eb-7cc0-467b-bd57-a6bd430c35f5)
-
-To addess this problem, we do random some random.After augmentation, the The training set contains of 26149 records and the testing set contains of 2504 records as shown above. 
-
-
+The training set originally contains of 7511 records and the testing set contains of 2504 records. However, there is a heavy class imbalance in lesions. To addess this problem, we do some random undersampling for nv and some over sampling for rest of the lesion types on the training set. This way of aumentation works because we are also applying random transformations to the images before feeding them to the model. After augmentation, the training set contains of 26149 records and the testing set contains of 2504 records. 
 
 ### Training Models
 
