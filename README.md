@@ -9,6 +9,8 @@ The input for our models is the images of the lesions and the output is lesion_t
 
 The training set originally contains 7511 records and the testing set contains 2504 records. However, there is a heavy class imbalance in lesions. To address this problem, we do some random undersampling for nv and some over sampling for the rest of the lesion types on the training set. This way of augmentation works because we are also applying random transformations to the images before feeding them to the model. After augmentation, the training set contains 26149 records and the testing set contains 2504 records.
 
+For more details on data analysis, please refer to the notebook data_analysis.ipynb. For information on data augmentation techniques, see training.ipynb.
+
 ### Training Models
 
 | Model Architecture | Training Accuracy | Testing Accuracy | Training Loss |
