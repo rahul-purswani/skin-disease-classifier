@@ -13,7 +13,7 @@ The training set originally contains 7511 records and the testing set contains 2
 
 | Model Architecture | Training Accuracy | Testing Accuracy | Training Loss |
 |----------|----------|----------|----------|
-| Custom_CNN | 72.67% | 63.58% | 0.726 |
+| Custom_CNN | 94.20% | 63.50% | 0.165 |
 | ResNet18 | 94.91% | 80.83% | 0.140 |
 | ResNet50 | 93.73% | 80% | 0.175 |
 | Efficientnet_b1 | 98.54% | 89.70% | 0.042 |
