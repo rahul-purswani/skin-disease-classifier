@@ -15,9 +15,10 @@ The training set originally contains of 7511 records and the testing set contain
 
 ### Transfer Learning
 
-Column 1	Column 2	Column 3	Column 4
-Content A1	Content A2	Content A3	Content A4
-Content B1	Content B2	Content B3	Content B4
-Content C1	Content C2	Content C3	Content C4
+| Model Architecture | Training Accuracy | Testing Accuracy | Training Loss |
+|----------|----------|----------|----------|
+| Row1Col1 | Row1Col2 | Row1Col3 | Row1Col4 |
+| Row2Col1 | Row2Col2 | Row2Col3 | Row2Col4 |
+| Row3Col1 | Row3Col2 | Row3Col3 | Row3Col4 |
 
 ### References
